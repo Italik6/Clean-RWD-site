@@ -1,0 +1,579 @@
+@font-face {
+  font-family: 'ProximaBold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold") format("svg"), url("../fonts/ProximaNova-Bold") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaLight';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light") format("svg"), url("../fonts/ProximaNova-Light") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SentinelBook';
+  src: url("../fonts/Sentinel-Book.eot");
+  src: url("../fonts/Sentinel-Book.woff2") format("woff2"), url("../fonts/Sentinel-Book.woff") format("woff"), url("../fonts/Sentinel-Book.ttf") format("truetype"), url("../fonts/Sentinel-Book") format("svg"), url("../fonts/Sentinel-Book") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 33, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f4f2;
+  font-size: 0.625em; }
+
+/* line 40, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+#test {
+  max-width: 1200px;
+  margin: 0 auto; }
+  /* line 43, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test header {
+    width: 100%;
+    background-color: #f4ebce; }
+    /* line 46, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header .social-icons {
+      color: #a1a1a1;
+      text-align: right; }
+      /* line 49, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .social-icons .icon {
+        height: 12px;
+        width: 12px;
+        margin: 0.5% 0.5%;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in; }
+        /* line 55, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header .social-icons .icon:hover {
+          -webkit-transition: all 200ms ease-in;
+          transition: all 200ms ease-in;
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+      /* line 62, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .social-icons .extreme {
+        margin-right: 2%; }
+      /* line 65, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .social-icons .icon path {
+        fill: #a1a1a1; }
+      /* line 68, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .social-icons .icon:hover path {
+        fill: #565658; }
+      @media screen and (max-width: 550px) {
+        /* line 46, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header .social-icons {
+          display: none; } }
+    /* line 75, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header .header-text {
+      float: left;
+      margin-left: 2%;
+      -webkit-transition: all 200ms ease-in;
+      transition: all 200ms ease-in;
+      color: #a1a1a1;
+      text-transform: uppercase;
+      font-family: 'ProximaBold';
+      font-size: 1em;
+      letter-spacing: 0.2em;
+      line-height: 2.2em;
+      margin-left: 2%;
+      -webkit-transition: all 200ms ease-in;
+      transition: all 200ms ease-in; }
+      /* line 89, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .header-text:hover {
+        color: #565658; }
+    /* line 93, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header .nav-bar {
+      background-color: #fff; }
+      @media screen and (max-width: 550px) {
+        /* line 93, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header .nav-bar {
+          overflow: hidden; } }
+      /* line 98, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .nav-bar img {
+        max-height: 59px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 5.6%; }
+        @media screen and (max-width: 550px) {
+          /* line 98, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+          #test header .nav-bar img {
+            width: 240px;
+            float: left;
+            padding: 7%; } }
+        @media screen and (max-width: 450px) {
+          /* line 98, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+          #test header .nav-bar img {
+            display: none; } }
+      /* line 112, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header .nav-bar .condensed-logo {
+        display: none;
+        width: 100px;
+        float: left;
+        padding: 5%; }
+        @media screen and (max-width: 450px) {
+          /* line 112, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+          #test header .nav-bar .condensed-logo {
+            display: block; } }
+    /* line 122, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header .wrapper {
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding-top: 6%; }
+    /* line 128, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header nav ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 52.5%;
+      margin: 0 auto;
+      padding: 0;
+      padding-bottom: 1%;
+      text-align: center; }
+      @media screen and (max-width: 650px) {
+        /* line 128, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header nav ul {
+          width: 75%; } }
+      /* line 150, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav ul a {
+        color: #b7aa50;
+        text-decoration: none;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        font-family: 'ProximaBold';
+        font-size: 1.4em; }
+        /* line 157, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header nav ul a:hover {
+          color: #a1a1a1; }
+    /* line 162, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header nav li {
+      display: inline-block; }
+    /* line 165, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header nav #menu-toggle {
+      display: none; }
+    /* line 168, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test header nav .label-toggle {
+      display: none; }
+    @media screen and (max-width: 550px) {
+      /* line 172, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav ul {
+        background-color: #b7aa50;
+        display: block;
+        height: 0;
+        list-style-type: none;
+        opacity: 0;
+        text-align: center;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+        width: 100%;
+        visibility: hidden;
+        margin-top: 9em; }
+      /* line 185, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav li {
+        color: #565658;
+        display: block;
+        font-size: 1.1em;
+        padding: 0.5em 0;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        /* line 192, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test header nav li:hover {
+          color: #fff; }
+      /* line 196, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav #menu-toggle:checked ~ ul {
+        opacity: 1;
+        height: 15em;
+        visibility: visible; }
+      /* line 201, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav .label-toggle {
+        background: -webkit-linear-gradient(top, #565658 0%, #565658 20%, transparent 20%, transparent 40%, #565658 40%, #565658 60%, transparent 60%, transparent 80%, #565658 80%, #565658 100%);
+        background: linear-gradient(to bottom, #565658 0%, #565658 20%, transparent 20%, transparent 40%, #565658 40%, #565658 60%, transparent 60%, transparent 80%, #565658 80%, #565658 100%);
+        cursor: pointer;
+        display: block;
+        float: right;
+        height: 35px;
+        margin-top: 1em;
+        width: 40px;
+        margin-right: 6%; }
+      /* line 212, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test header nav .wrapper {
+        display: block; } }
+  @media screen and (max-width: 550px) {
+    /* line 220, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .navbar-desktop {
+      display: none; } }
+  /* line 225, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .navbar-mobile {
+    display: none; }
+    @media screen and (max-width: 550px) {
+      /* line 225, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .navbar-mobile {
+        display: block; } }
+  /* line 231, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .content {
+    background-color: #fff;
+    width: 66%;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 2%; }
+    @media screen and (max-width: 550px) {
+      /* line 231, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .content {
+        width: 87.5%;
+        margin-bottom: 5%; } }
+  /* line 242, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .content-text {
+    margin: 0 auto;
+    width: 94%; }
+    @media screen and (max-width: 550px) {
+      /* line 242, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .content-text {
+        width: 87.5%;
+        margin-bottom: 5%; } }
+  /* line 250, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .img-fluid {
+    width: 100%;
+    padding-bottom: 2%; }
+    @media screen and (max-width: 550px) {
+      /* line 250, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .img-fluid {
+        padding-bottom: 5%; } }
+  /* line 257, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .date {
+    font-family: 'ProximaLight';
+    font-size: 1.6em;
+    color: #565658;
+    float: left;
+    margin: 0; }
+    @media screen and (max-width: 400px) {
+      /* line 257, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .date {
+        float: none; } }
+  /* line 269, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .before-date-text {
+    color: #b7aa50;
+    font-family: 'ProximaBold';
+    letter-spacing: 0.2em;
+    text-transform: uppercase; }
+  /* line 275, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .share-button {
+    text-decoration: none;
+    color: #fff6d8;
+    padding: 6px;
+    border: solid 3px #fff6d8;
+    text-transform: uppercase;
+    font-family: 'ProximaBold';
+    letter-spacing: 0.2em;
+    width: 86px;
+    text-align: center;
+    float: right;
+    font-size: 1.3em;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    margin-top: -5px; }
+    @media screen and (max-width: 400px) {
+      /* line 275, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .share-button {
+        margin-top: 1em;
+        float: left; } }
+    /* line 295, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .share-button:hover {
+      -webkit-transition: all 200ms ease-in;
+      transition: all 200ms ease-in;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+  /* line 303, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .desc {
+    clear: both; }
+    /* line 305, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .desc h2 {
+      font-family: 'SentinelBook';
+      font-size: 3.2em;
+      color: #565658;
+      text-transform: capitalize;
+      font-weight: normal;
+      margin: 0;
+      padding-top: 1%; }
+      @media screen and (max-width: 550px) {
+        /* line 305, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test main .desc h2 {
+          padding-top: 3%; } }
+    /* line 317, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .desc .no-transform {
+      text-transform: none; }
+    /* line 320, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .desc p {
+      font-family: 'ProximaLight';
+      font-size: 1.7em;
+      line-height: 1.8em;
+      margin: 1.5% 0 2% 0; }
+    /* line 326, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .desc .arrow {
+      height: 38px;
+      text-decoration: none;
+      padding-bottom: 3%;
+      transition: all 250ms ease-in; }
+      /* line 331, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .desc .arrow:hover {
+        -webkit-transition: all 250ms ease-in;
+        transition: all 250ms ease-in;
+        -webkit-transform: scale(1.5);
+        transform: scale(1.2); }
+      @media screen and (max-width: 550px) {
+        /* line 326, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test main .desc .arrow {
+          padding-bottom: 2%;
+          padding-top: 2%; } }
+  /* line 343, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test main .add-module {
+    background-color: #a0a09e;
+    width: 66%;
+    margin: 0 auto;
+    margin-bottom: 2%; }
+    @media screen and (max-width: 550px) {
+      /* line 343, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test main .add-module {
+        width: 92%; } }
+    /* line 351, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .add-module .add-text {
+      color: #fff;
+      text-transform: capitalize;
+      font-family: 'ProximaLight';
+      text-align: center;
+      font-size: 2.3em;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      padding: 5% 0;
+      margin: 0; }
+      @media screen and (max-width: 550px) {
+        /* line 351, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test main .add-module .add-text {
+          display: none; } }
+    /* line 365, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test main .add-module .add-text-mobile {
+      display: none;
+      color: #fff;
+      text-transform: capitalize;
+      font-family: 'ProximaLight';
+      text-align: center;
+      font-size: 2.2em;
+      font-weight: bold;
+      letter-spacing: 0.02em;
+      padding: 41% 0;
+      margin: 0;
+      margin-bottom: 5%; }
+      @media screen and (max-width: 550px) {
+        /* line 365, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test main .add-module .add-text-mobile {
+          display: block; } }
+  /* line 384, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+  #test footer {
+    width: 100%;
+    background-color: #f0bf61; }
+    /* line 387, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test footer h2 {
+      font-family: 'SentinelBook';
+      font-size: 3.2em;
+      color: #565658;
+      text-transform: capitalize;
+      font-weight: normal;
+      margin: 0;
+      text-align: center;
+      padding-bottom: 1.5%;
+      padding-top: 3.5%; }
+    /* line 398, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test footer form {
+      text-align: center;
+      width: 31%;
+      margin: 0 auto;
+      padding-bottom: 2.5%; }
+      @media screen and (max-width: 550px) {
+        /* line 398, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer form {
+          width: 86%; } }
+      /* line 406, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer form .input-email {
+        color: #565658;
+        font-family: 'ProximaLight';
+        font-size: 1.3em;
+        border: none;
+        border-radius: 2px;
+        padding: 15px 0px 15px 12px;
+        width: 70%; }
+        @media screen and (max-width: 550px) {
+          /* line 406, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+          #test footer form .input-email {
+            width: 66%; } }
+      /* line 418, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer form .submit-button {
+        color: #565658;
+        padding: 16px 0;
+        background-color: #fdf2cb;
+        text-transform: uppercase;
+        font-family: 'ProximaBold';
+        letter-spacing: 0.2em;
+        width: 92px;
+        text-align: center;
+        display: inline-block;
+        margin-left: -3px;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in; }
+        /* line 431, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer form .submit-button:hover {
+          font-size: 1.1em; }
+    /* line 436, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test footer .social-icons2 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 28%;
+      margin: 0 auto; }
+      @media screen and (max-width: 650px) {
+        /* line 436, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .social-icons2 {
+          width: 50%; } }
+      @media screen and (max-width: 550px) {
+        /* line 436, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .social-icons2 {
+          width: 75%; } }
+      /* line 458, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer .social-icons2 .icon2 {
+        height: 24px;
+        width: 24px;
+        margin: 0.5% 0.5%;
+        transition: all 250ms ease-in; }
+        /* line 463, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .social-icons2 .icon2:hover {
+          -webkit-transition: all 250ms ease-in;
+          transition: all 250ms ease-in;
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+      /* line 470, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer .social-icons2 .icon2 path {
+        fill: #fff; }
+      /* line 473, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer .social-icons2 .icon2:hover path {
+        fill: #565658; }
+    /* line 477, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test footer .footer-text {
+      width: 24%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 auto;
+      letter-spacing: 0.09em;
+      margin-top: 1%;
+      margin-bottom: 0.7%; }
+      @media screen and (max-width: 750px) {
+        /* line 477, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text {
+          width: 44%; } }
+      @media screen and (max-width: 550px) {
+        /* line 477, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          text-align: center;
+          width: 50%;
+          margin-top: 5%; } }
+      /* line 509, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer .footer-text .footer-link {
+        font-family: 'SentinelBook';
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 1.9em; }
+        @media screen and (max-width: 550px) {
+          /* line 509, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+          #test footer .footer-text .footer-link {
+            margin: 3%; } }
+        /* line 517, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text .footer-link a {
+          text-decoration: none;
+          color: #565658;
+          text-decoration: underline; }
+    /* line 524, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+    #test footer .footer-text2 {
+      width: 25%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 auto;
+      letter-spacing: 0.07em;
+      color: #565658;
+      margin-top: -1%;
+      padding-bottom: 9.5%; }
+      @media screen and (max-width: 750px) {
+        /* line 524, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text2 {
+          width: 44%; } }
+      @media screen and (max-width: 550px) {
+        /* line 524, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text2 {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          text-align: center;
+          width: 50%;
+          margin-top: 3%; } }
+      /* line 557, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+      #test footer .footer-text2 .footer-copy {
+        font-family: 'ProximaBold';
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 1.4em;
+        margin: 5px; }
+        /* line 563, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text2 .footer-copy:last-child {
+          text-decoration: underline; }
+        /* line 566, C:/Users/User/Desktop/Italik/Front - End/Portfolio/Clean-RWD-site/css/style.scss */
+        #test footer .footer-text2 .footer-copy a {
+          text-decoration: none;
+          color: #565658; }
+
+/*# sourceMappingURL=style.css.map */
